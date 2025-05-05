@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!TM3-UltraDoc.tex
+!TM3-UltraDoc.pdf
+!source/
+!source/*
