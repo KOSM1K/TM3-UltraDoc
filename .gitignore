@@ -4,4 +4,6 @@
 !TM3-UltraDoc.tex
 !TM3-UltraDoc.pdf
 !source/
-!source/*
+!source/*.tex
+!source/*.png
+!source/*.jpg

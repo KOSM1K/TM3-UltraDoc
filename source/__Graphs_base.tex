@@ -1,0 +1,42 @@
+\documentclass[../TM3-UltraDoc.tex]{subfiles}
+\begin{document}
+	\section*{База по графам}
+	\addcontentsline{toc}{section}{--- База по графам ---}
+	% Your content here
+	
+	%\begin{tcolorbox}[colframe=gray, left=5pt, right=5pt, top=5pt, bottom=5pt, boxrule=1pt]
+	%\end{tcolorbox}
+	\textbf{Граф} - упорядоченная пара \(G = \langle V, E \rangle \)\\
+	\(V\) - множество вершин (vertices) ((вертексы))\\
+	\(E\) - множество ребер (edges) ((эджи)) \\
+	\small
+	\(
+	\\
+	V \neq \emptyset \\
+	E \subseteq V \times V\\
+	\\
+	\)
+	\normalsize
+	\noindent
+	\(V(G)\) - "получить"\ множество вершин графа $G$\\
+	\(E(G)\) - "получить"\ множество ребер графа $G$\\
+	\textit{если вместо $G$ будет не граф, а что то также имеющее вершины/ребра, то такая нотация также будет работать (например с путями в графе)}\\
+	\\
+	\textbf{Порядок (order)} графа - колличество вершин	$ |V(G)| $ \\
+	\textbf{Размер (size)} графа - колличество ребер	$ |E(G)| $ \\
+	\\
+	\textit{все остальное будет в блоках по темам, на этом в общем то все}\\
+	\small
+	\begin{tcolorbox}[colframe=gray!50!black, left=5pt, right=5pt, top=5pt, bottom=5pt, boxrule=1pt, title=\textbf{Немножечко филосовских уточнений/рассуждений:}, colback=gray!10!white]
+		\begin{itemize}
+		\item Таки а что такое вершина?\\
+		Вершина это вершина. Смиритесь. Можете считать ее (для удобства мышления, а не для ответа преподу) как идентификатор вершины на картинке (типо как имя или номер)
+		\item Таки а что такое ребро?\\
+		Ребро это пара (неупорядоченная если граф неориентированный, упорядоченная если граф ориентированный) вершин. (А как же взвешенные ребра? Я думаю о том, что пара двух вершин, это база, и никуда вы от нее не денетесь. А свойств у ребра может быть много, так что я бы описал это как:\\ 
+		$e \in E = \langle \langle v_1, v_2 \rangle, \langle \text{список свойств} \rangle$)
+		\end{itemize}
+		
+	\end{tcolorbox}
+	\normalsize
+		
+\end{document}
